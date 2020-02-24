@@ -1,0 +1,183 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	padding-top:1px;
+}
+
+ul{
+	list-style:none;
+}
+
+/*上方导航条*/
+.Navigation_bar_top{
+	background-color:#34495e;
+	width:100%;
+	height:30px;
+	padding:0 70px;
+}
+
+.Navigation_bar_top > .left{
+	float:left;
+}
+
+.Navigation_bar_top > .right{
+	float:right;
+}
+
+.Navigation_bar_top li{
+	float:left;
+	text-decoration:none;
+	color:white;
+	line-height:30px;
+	font-size:4px;
+}
+
+.Navigation_bar_top a{
+	padding:0 10px;
+}
+
+.Navigation_bar_top li:first-child ~ li a{
+	border-left:1px white solid;
+}
+
+
+/*header部分*/
+
+.header{
+	margin:20px 0;
+	width:1110px;
+	height:70px;
+}
+
+.icon{
+	width:70px;
+	height:70px;
+	background-color:orange;
+	float:left;
+}
+
+.header ul{
+	line-height:70px;
+	margin-left:180px;
+}
+
+.header li{
+	float:left;
+	margin:0 5px;
+	font-size:18px;
+}
+
+.input{
+	float:right;
+	width:290px;
+	height:60px;
+	border:4px #ecf0f1 solid;
+}
+
+.input div{
+	width:60px;
+	height:60px;
+	float:right;
+	border-left:4px #ecf0f1 solid;
+}
+
+
+/*body部分*/
+
+.body{
+	width:100%;
+}
+
+.image{
+	width:114%;
+	height:400px;
+	background-size:100% auto;
+	background-image:url('小米.jpg');
+	position:absolute;
+}
+
+.Navigation_bar_left{
+	float:left;
+	width:20%;
+	height:100%;
+}
+
+.Navigation_bar_left li{
+	width:100%;
+	height:30px;
+	font-size:15px;
+	padding:5px 30px;
+	line-height:30px;
+	background-color:rgba(190,190,190,0.3);
+}
+
+.Navigation_bar_left span:last-child{
+	float:right;
+}
+
+
+.dot{
+	position:absolute;
+	bottom:20px;
+	right:40px;
+}
+
+.dot li{
+	width:10px;
+	height:10px;
+	float:left;
+	border-radius:50%;
+	border:2px #ecf0f1 solid;
+	background-color:rgba(139,10,80,1);
+	margin:0 6px;
+}
+
+
+/*footer部分*/
+
+.footer{
+	width:100%;
+}
+
+.footer ul{
+	float:left;
+	width:114%;
+	margin-top:42%;
+}
+
+.blank{
+	width:20%;
+}
+
+.footer li{
+	float:left;
+	width:24%;
+	height:200px;
+	margin-left:1%;
+}
+
+.footer li:nth-child(1){
+	background-color:#d1ccc0;
+}
+
+.footer li:nth-child(2){
+	background-image:url('小米2.jpg');
+	background-size:100% auto;
+}
+
+.footer li:nth-child(3){
+	background-image:url('小米3.jpg');
+	background-size:100% auto;
+}
+
+.footer li:nth-child(4){
+	background-image:url('小米4.jpg');
+	background-size:100% auto;
+}
+
+
+
+
